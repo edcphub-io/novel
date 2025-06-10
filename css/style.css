@@ -1,0 +1,80 @@
+body {
+  font-family: 'Noto Sans Bengali', sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+  padding: 10px;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.search-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-filter input, 
+.search-filter select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 25px;   /* আরো বেশি গোল কর্নার */
+  font-size: 16px;
+}
+
+.novel-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.novel-card {
+  background-color: #fff;
+  border-radius: 25px;  /* আরো বেশি গোল কর্নার */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+.novel-card:hover {
+  box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+}
+
+.novel-card h3 {
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  color: #000;
+}
+
+.novel-buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.novel-buttons a {
+  text-decoration: none;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  font-size: 14px;
+  border-radius: 25px;  /* আরো বেশি গোল কর্নার */
+  transition: background-color 0.3s ease;
+}
+
+.novel-buttons a:hover {
+  background-color: #0056b3;
+}
